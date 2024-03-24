@@ -1,0 +1,7 @@
+[
+{"id": "63226", "labels": ["Ethos", "Ad Hominem", "Smears"]},
+{"id": "64328", "labels": ["Logos", "Reasoning", "Ethos", "Ad Hominem", "Smears", "Pathos"]},
+{"id": "66831", "labels": ["Logos", "Justification", "Ethos", "Pathos"]},
+{"id": "79544", "labels": ["Ethos", "Ad Hominem", "Smears"]},
+{"id": "70781", "labels": ["Logos", "Reasoning", "Ethos", "Ad Hominem", "Smears", "Pathos"]}
+]
