@@ -5,5 +5,5 @@ val_json_path = '../dataset/annotations_v2/semeval2024_dev_release/subtask2a/val
 val_images_folder_path = '../dataset/validation_images'
 
 device = "cpu"
-batch_size = 2
-epochs = 1
+batch_size = 30
+epochs = 350

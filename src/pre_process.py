@@ -119,12 +119,12 @@ class ProcessDataset(Dataset):
     def get_ground_truth(self, labels):
         ground_truth = {}
         for label in labels:
-            if (label in ["Name calling/Labeling", "Doubt", "Smears", "Reductio ad hitlerum"]):
+            if label in ["Name calling/Labeling", "Doubt", "Smears", "Reductio ad hitlerum"]:
                 ground_truth[label] = 1
                 ground_truth["Ethos"] = 1
                 ground_truth["Ad Hominem"] = 1
 
-            if (label in ["Bandwagon", "Appeal to authority"]):
+            if label in ["Bandwagon", "Appeal to authority"]:
                 ground_truth[label] = 1
                 ground_truth["Ethos"] = 1
                 ground_truth["Logos"] = 1
